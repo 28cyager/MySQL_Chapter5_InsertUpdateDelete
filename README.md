@@ -12,9 +12,6 @@ This is a list of queries done from a single table.
 ## Workers
 [@28cyager](https://github.com/28cyager) Christian Yager
 
-[@jacobczapla](https://github.com/jacobczapla) Jacob Czapla
-
-
 ## New Concepts Used
 - CONCAT
 - LEFT
