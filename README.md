@@ -41,10 +41,10 @@ This is a list of queries done from a single table.
 ![Project Logo](assets/query3Drop.png)
 
 ##Query 4
-![Project Logo](assets/query4.png)
+![Project Logo](assets/query4Insert.png)
 
 ##Query 5
-![Project Logo](assets/query5.png)
+![Project Logo](assets/query5column.png)
 
 ##Query 6
 ![Project Logo](assets/query6.png)
