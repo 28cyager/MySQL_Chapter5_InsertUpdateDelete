@@ -27,7 +27,7 @@ CHECKSUM TABLE customer, customer_full_backup;
 
 /********************************************
 Christian Yager
-Query 2:
+Exercise 2:
 •	Part 2.1) Write three queries to determine the following:
 o	2.1.A How many records are in the rental table, and document
 o	2.1.B How many rentals have been returned (based on return_date) and document 
