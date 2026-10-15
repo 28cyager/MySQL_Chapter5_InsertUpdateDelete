@@ -35,10 +35,10 @@ This is a list of queries done from a single table.
 ![Project Logo](assets/query1CheckSum.png)
 
 ##Query 2
-![Project Logo](assets/query2.png)
+![Project Logo](assets/query2Backups.png)
 
 ##Query 3
-![Project Logo](assets/query3.png)
+![Project Logo](assets/query3Drop.png)
 
 ##Query 4
 ![Project Logo](assets/query4.png)
