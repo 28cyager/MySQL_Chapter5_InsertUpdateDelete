@@ -84,3 +84,19 @@ INSERT INTO customer VALUES
 SELECT *
 FROM customer
 WHERE address_id = 606;
+
+/********************************************
+Christian Yager
+•	Part 5.1: Write a statement to setup insert another new customer with the same address id 606
+o	Also use the same last name as the previous insert statement
+o	OMIT all columns that are auto increment, defaults, and nullable columns
+•	Part 5.2: Write a query to prove the new customer was created by filtering on address id 606
+This should have created customer id = 601
+*********************************************/
+INSERT INTO customer
+	(store_id, first_name, last_name, address_id, active, create_date)
+VALUES
+	(1, "Sam", "Johnson", 606, 1, "2026-10-15");
+SELECT *
+FROM customer
+WHERE address_id = 606;
