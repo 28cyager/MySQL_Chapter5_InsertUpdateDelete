@@ -32,7 +32,7 @@ This is a list of queries done from a single table.
 
 ## Browser Output Example
 ##Query 1
-![Project Logo](assets/query1.png)
+![Project Logo](assets/query1CheckSum.png)
 
 ##Query 2
 ![Project Logo](assets/query2.png)
