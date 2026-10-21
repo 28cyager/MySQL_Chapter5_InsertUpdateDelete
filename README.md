@@ -23,28 +23,28 @@ This is a list of exercises, the code done to use them, and the results of that 
 
 
 ## Browser Output Example
-##Query 1
+##Exercise 1
 ![Project Logo](assets/query1CheckSum.png)
 
-##Query 2
+##Exercise 2
 ![Project Logo](assets/query2backups.png)
 
-##Query 3
+##Exercise 3
 ![Project Logo](assets/query3Drop.png)
 
-##Query 4
+##Exercise 4
 ![Project Logo](assets/query4Insert.png)
 
-##Query 5
+##Exercise 5
 ![Project Logo](assets/query5column.png)
 
-##Query 6
+##Exercise 6
 ![Project Logo](assets/query6.png)
 
-##Query 7
+##Exercise 7
 ![Project Logo](assets/query7.png)
 
-##Query 8
+##Exercise 8
 ![Project Logo](assets/query8.png)
 
 [Back to Top](#single-query)
