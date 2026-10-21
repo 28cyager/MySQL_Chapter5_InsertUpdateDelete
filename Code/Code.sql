@@ -101,8 +101,6 @@ SELECT *
 FROM customer
 WHERE address_id = 606;
 
-/*********************************************** DOES THIS WORK AT ALL? ***********************************************/
-
 /********************************************
 Christian Yager
 • Part 6.1 - update your first new customer record by changing it's store id = 2 and email address
@@ -158,4 +156,6 @@ DELETE FROM customer
 WHERE customer_id = 600 AND
 	customer_id = 601;
 	
-/* DOCUMENTATION FOR AFTER */
+/* DOCUMENTATION FOR AFTER
+I had to delete the address first, then move to city, and then finally customer ids.
+If I tried any other way it would've said they wouldn't delete because of the foreign key constraints.
