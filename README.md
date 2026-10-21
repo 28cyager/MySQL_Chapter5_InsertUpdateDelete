@@ -7,27 +7,19 @@
 - [Browser Output Example](#browser-output-example)
 
 ## Summary
-This is a list of queries done from a single table.
+This is a list of exercises, the code done to use them, and the results of that code and its product.
 
 ## Workers
 [@28cyager](https://github.com/28cyager) Christian Yager
 
 ## New Concepts Used
-- CONCAT
-- LEFT
-- ROUND
-- CURRENT_DATE
-- DATE_FORMAT
-- IN and BETWEEN
-- LIKE
-- IS NULL
-- IS NOT NULL
-- ASC
-- DESC
-- DISTINCT
-- LIMIT
-- logical operators
-- comparison operators
+- DELETE
+- INSERT
+- CREATE
+- DROP
+- SET
+- UPDATE
+- CHECKSUM
 
 
 ## Browser Output Example
@@ -54,11 +46,5 @@ This is a list of queries done from a single table.
 
 ##Query 8
 ![Project Logo](assets/query8.png)
-
-##Query 9
-![Project Logo](assets/query9.png)
-
-##Query 10
-![Project Logo](assets/query10.png)
 
 [Back to Top](#single-query)
