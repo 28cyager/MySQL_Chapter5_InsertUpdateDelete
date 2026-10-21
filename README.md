@@ -23,7 +23,7 @@ This is a list of exercises, the code done to use them, and the results of that 
 
 
 ## Browser Output Example
-##Exercise 1
+##Exercise 1##
 
 <img src="assets/query1CheckSum.png" alt="Exercise 1" width="500" />
 
