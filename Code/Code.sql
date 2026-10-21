@@ -100,3 +100,62 @@ VALUES
 SELECT *
 FROM customer
 WHERE address_id = 606;
+
+/*********************************************** DOES THIS WORK AT ALL? ***********************************************/
+
+/********************************************
+Christian Yager
+• Part 6.1 - update your first new customer record by changing it's store id = 2 and email address
+use the customer id (600) to update only one record
+• Part 6.2 - update your second new customer record by changing it's store id = 2 and email address
+use the customer id (601) to update only one record
+• Part 6.3 - write a query to verify the two records have been correctly update
+use the address id (606) to retrieve both records
+*********************************************/
+UPDATE customer
+SET store_id = 2,
+	email = "dejohns@email.com"
+WHERE customer_id = 600;
+
+UPDATE customer
+SET store_id = 2,
+	email = "sam.johnson@email.com"
+WHERE customer_id = 601;
+
+SELECT *
+FROM customer
+WHERE address_id = 606;
+
+/********************************************
+Christian Yager
+• Part 7.1: Write one update statement that will update both new customer records
+changing their address id from 606 to 605. This will require you filtering by the address id = 606.
+• Part 7.2: Write a query to verify that both records have been correctly updated by filtering by address id (605)
+*********************************************/
+UPDATE customer
+SET address_id = 605
+WHERE address_id = 606;
+
+SELECT *
+FROM customer
+WHERE address_id = 605;
+
+/********************************************
+Christian Yager
+• Part 8.1.A - Write a delete statement that delete the new city records using the city id = 601
+• Part 8.1.B - Write a delete statement that delete the new address records using the address id = 606
+• Part 8.1.C - Write a delete statement that delete the new customer records using the customer id = 600 & 601
+• Part 8.2 - Write a queries that verifies the records has been deleted.
+• Part 8.3 - Document your results and what you had to do to resolve the issue
+*********************************************/
+DELETE FROM city
+WHERE city_id = 601;
+
+DELETE FROM address
+WHERE address_id = 606;
+
+DELETE FROM customer
+WHERE customer_id = 600 AND
+	customer_id = 601;
+	
+/* DOCUMENTATION FOR AFTER */
